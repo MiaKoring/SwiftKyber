@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "digest",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/leif-ibsen/Digest",
+      "state" : {
+        "revision" : "05f079878ec5fb05c7d9c94f35dbc4f5ec054d54",
+        "version" : "1.6.0"
+      }
+    }
+  ],
+  "version" : 2
+}

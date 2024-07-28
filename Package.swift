@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -25,5 +25,8 @@ let package = Package(
             name: "SwiftKyberTests",
             dependencies: ["SwiftKyber"],
             resources: [.copy("Resources/kat512.rsp"), .copy("Resources/kat768.rsp"), .copy("Resources/kat1024.rsp")]),
+        .testTarget(name: "ForkTests",
+                    dependencies: ["SwiftKyber"]
+                   )
     ]
 )
