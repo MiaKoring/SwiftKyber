@@ -6,8 +6,8 @@
 //
 
 public extension Kyber {
-    func keyPair() -> KKeypair  {
+    func keyPair() -> KKeypair {
         let (en, de) = self.GenerateKeyPair()
-        return KKeypair (encap: en, decap: de)
+        return KKeypair(encap: en, decap: de)
     }
 }
