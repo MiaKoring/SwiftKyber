@@ -6,6 +6,6 @@
 //
 
 public struct KKeypair {
-    let encap: EncapsulationKey
-    let decap: DecapsulationKey
+    public let encap: EncapsulationKey
+    public let decap: DecapsulationKey
 }
